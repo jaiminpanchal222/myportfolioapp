@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react'
+import Nav from './components/nav.tsx';
 
 const App = () => {
   return (
     <div>
-      <h5>This is a Home page</h5>
+      <Nav/>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
