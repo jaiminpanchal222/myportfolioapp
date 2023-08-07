@@ -1,0 +1,22 @@
+{
+    "navbar": [
+        {
+            "id": 1,
+            "title": "Home"
+        },
+        {
+            "id": 2,
+            "title": "About"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

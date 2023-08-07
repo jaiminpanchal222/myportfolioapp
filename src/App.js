@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from './components/nav.tsx';
+import HeaderBar from './components/headerbar.tsx'
 
 const App = () => {
   return (
     <div>
-      <Nav/>
+      <HeaderBar/>
     </div>
   )
 }
