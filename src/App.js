@@ -1,12 +1,15 @@
-import React from 'react'
-import HeaderBar from './components/headerbar.tsx'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/home.tsx";
 
 const App = () => {
   return (
-    <div>
-      <HeaderBar/>
-    </div>
-  )
-}
+    <BrowserRouter>     
+      <Routes>
+        <Route path="/" element={<Home/>} />/
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
